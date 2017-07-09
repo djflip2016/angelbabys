@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container{
+    width: 100%;
+    margin:0 auto;
+}
+
+/********HEADER********/
+
+header{
+    background-color:#ff1493;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Allura;
+    color: white;
+    text-shadow: -2px 2px #33C1ff;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+
+/******** NAV ********/
+nav{
+    display: center;
+    background-color: #33C1FF;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    line-height: 2em;
+    font-weight: bold;
+    margin: 5px 30px;
+}
+
+/******** ANCHOR ELEMENTS ********/
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ff1493;
+    color: white;
+}
+
+/****** BANNER *********/
