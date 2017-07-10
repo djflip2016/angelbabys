@@ -42,9 +42,13 @@ nav ul{
 
 li{
     display: inline-block;
-    line-height: 2em;
-    font-weight: bold;
-    margin: 5px 30px;
+    font-weight: bolder;
+    line-height:1.2em;
+    margin: 5px 10px;
+}
+
+.home-shift{
+    margin-left: -50px;
 }
 
 /******** ANCHOR ELEMENTS ********/
@@ -60,3 +64,8 @@ a:hover{
 }
 
 /****** BANNER *********/
+
+.banner{
+    width: 100%;
+}
+
